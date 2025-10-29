@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Cookie Box | Luxurious Artisanal Pastries</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap');
+    </style>
+</head>
+
+<body class="bg-amber-50">
+    <custom-navbar></custom-navbar>
+
+    <!-- Hero Section -->
+    <section
+        class="relative min-h-[30vh] md:min-h-[50vh] flex items-center justify-center bg-gradient-to-r from-amber-100 to-amber-50 overflow-hidden py-10 md:py-6">
+        <div class="absolute inset-0 opacity-20">
+            <div class="absolute inset-0 bg-repeat opacity-30">
+                <img 
+                    src="Images/Cup.jpg" 
+                    alt="Background image" 
+                    class="w-full h-full object-cover absolute"
+                >
+            </div>
+        </div>
+
+        <div class="container mx-auto px-4 sm:px-6 relative z-10 text-center">
+            <img src="Images/image.jpg" alt="The Cookie Box Logo"
+                class="mx-auto h-16 sm:h-20 md:h-24 mb-4 sm:mb-6 rounded-full shadow-lg object-cover">
+            <h1
+                class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-playfair font-bold text-amber-900 mb-3 sm:mb-4">
+                The Cookie Box
+            </h1>
+            <p
+                class="text-xs sm:text-sm md:text-base font-montserrat text-amber-800 max-w-xl sm:max-w-2xl mx-auto mb-4">
+                Where Architectural Art Meets Edible Masterpieces
+            </p>
+            <a href="#about"
+                class="bg-amber-600 hover:bg-amber-700 text-white font-montserrat px-4 py-1.5 sm:px-6 sm:py-2 rounded-full transition duration-300 inline-block text-xs sm:text-sm">
+                Discover Our Story
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 md:py-20 bg-white">
+        <div class="container mx-auto px-4 sm:px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+                    <h2 class="text-3xl sm:text-4xl font-playfair font-bold text-amber-900 mb-4">Sedoo Gemade</h2>
+                    <h3 class="text-lg sm:text-xl font-montserrat text-amber-700 mb-3">Creative Director</h3>
+                    <p class="text-base sm:text-lg font-montserrat text-gray-700 mb-4">
+                        A seasoned Architect turned Entrepreneur with a passion to create a fusion of luxurious and
+                        exquisite pastries which tell a story of love, laughter and Life. Using Architectural skills to
+                        transform edibles into a work of Art!
+                    </p>
+                    <div class="space-y-2 text-sm sm:text-base">
+                        <p class="font-montserrat text-gray-700"><i data-feather="award" class="inline mr-2"></i>
+                            Postgraduate in Architecture - The University of Westminster, London</p>
+                        <p class="font-montserrat text-gray-700"><i data-feather="award" class="inline mr-2"></i> BA
+                            (HONS) Architecture - University of Central England in Birmingham</p>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="bg-amber-100 p-6 sm:p-8 rounded-lg shadow-lg">
+                        <h3 class="text-xl sm:text-2xl font-playfair font-bold text-amber-900 mb-3">Our Philosophy</h3>
+                        <blockquote class="font-montserrat italic text-gray-700 mb-4 text-sm sm:text-base">
+                            "The preparation of good food is merely another expression of art" - Dione Lucas
+                        </blockquote>
+                        <p class="font-montserrat text-gray-700 mb-3 text-sm sm:text-base">
+                            The Cookie Box is a bespoke brand built through our love for desserts, cookies and cakes. We
+                            infuse originality, authenticity and luxury into every bite.
+                        </p>
+                        <p class="font-montserrat text-gray-700 text-sm sm:text-base">
+                            We are a family and customer centric brand focused on bringing artistic edibles to your door
+                            step. We enjoy making unforgettable moments and memories through our excellent service.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision & Values -->
+    <section class="py-16 md:py-20 bg-amber-100">
+        <div class="container mx-auto px-4 sm:px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl sm:text-4xl font-playfair font-bold text-amber-900 mb-4">Our Vision & Values</h2>
+                <div class="w-20 h-1 bg-amber-600 mx-auto"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6 md:gap-10">
+                <div class="bg-white p-6 sm:p-8 rounded-lg shadow-md">
+                    <h3 class="text-xl sm:text-2xl font-playfair font-bold text-amber-900 mb-3">Vision</h3>
+                    <p class="font-montserrat text-gray-700 text-sm sm:text-base">
+                        To be the patisserie of choice for custom made and luxury desserts across Africa.
+                    </p>
+                </div>
+
+                <div class="bg-white p-6 sm:p-8 rounded-lg shadow-md">
+                    <h3 class="text-xl sm:text-2xl font-playfair font-bold text-amber-900 mb-3">Values</h3>
+                    <ul class="space-y-3 font-montserrat text-gray-700 text-sm sm:text-base">
+                        <li class="flex items-start">
+                            <i data-feather="shield" class="text-amber-600 mr-3 mt-1"></i>
+                            <span><strong>Integrity:</strong> Honesty, transparency and ethical conduct in all our
+                                operations.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="star" class="text-amber-600 mr-3 mt-1"></i>
+                            <span><strong>Exclusivity:</strong> Making every customer feel special through unique
+                                experiences.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="pen-tool" class="text-amber-600 mr-3 mt-1"></i>
+                            <span><strong>Creative Expression:</strong> Quintessential experiences through artistic
+                                creativity.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="award" class="text-amber-600 mr-3 mt-1"></i>
+                            <span><strong>Superior Performance:</strong> Delivering excellent service at all
+                                times.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Cakes Section -->
+    <section class="py-16 md:py-20 bg-white">
+        <div class="container mx-auto px-4 sm:px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl sm:text-4xl font-playfair font-bold text-amber-900 mb-2">Our Masterpieces</h2>
+                <p class="font-montserrat text-gray-700 max-w-xl mx-auto text-sm sm:text-base">
+                    A collection of our finest senses.
+                </p>
+                <div class="w-24 h-1 bg-amber-600 mx-auto mt-4"></div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 sm:gap-8">
+                <!-- Cake 1 -->
+                <div
+                    class="relative group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <img src="Images/IMG-20251027-WA0001.jpg" alt="Luxury Cake"
+                        class="w-full h-48 md:h-64 object-cover group-hover:scale-105 transition duration-300">
+                    <div
+                        class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                        <h3 class="text-white font-playfair text-lg md:text-xl px-2">Retirement Delight</h3>
+                    </div>
+                </div>
+
+                <!-- Cake 2 -->
+                <div
+                    class="relative group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <img src="Images/IMG-20251027-WA0009.jpg" alt="Wedding Cake"
+                        class="w-full h-48 md:h-64 object-cover group-hover:scale-105 transition duration-300">
+                    <div
+                        class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                        <h3 class="text-white font-playfair text-lg md:text-xl px-2">Wedding Wonder</h3>
+                    </div>
+                </div>
+
+                <!-- Cake 3 -->
+                <div
+                    class="relative group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <img src="Images/Drip.jpg" alt="Chocolate Blend"
+                        class="w-full h-48 md:h-64 object-cover group-hover:scale-105 transition duration-300">
+                    <div
+                        class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                        <h3 class="text-white font-playfair text-lg md:text-xl px-2">Chocolate Symphony</h3>
+                    </div>
+                </div>
+
+                <!-- Cake 4 -->
+                <div
+                    class="relative group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <img src="Images/IMG-20251027-WA0002.jpg" alt="Birthday Cake"
+                        class="w-full h-48 md:h-64 object-cover group-hover:scale-105 transition duration-300">
+                    <div
+                        class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                        <h3 class="text-white font-playfair text-lg md:text-xl px-2">Birthday Extravaganza</h3>
+                    </div>
+                </div>
+
+                <!-- Cake 5 -->
+                <div
+                    class="relative group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <img src="Images/IMG-20251027-WA0006.jpg" alt="Love"
+                        class="w-full h-48 md:h-64 object-cover group-hover:scale-105 transition duration-300">
+                    <div
+                        class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                        <h3 class="text-white font-playfair text-lg md:text-xl px-2">Cake of Love</h3>
+                    </div>
+                </div>
+
+                <!-- Cake 6 -->
+                <div
+                    class="relative group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <img src="Images/IMG-20251027-WA0003.jpg" alt="Italy"
+                        class="w-full h-48 md:h-64 object-cover group-hover:scale-105 transition duration-300">
+                    <div
+                        class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                        <h3 class="text-white font-playfair text-lg md:text-xl px-2">Italy Themed Cake</h3>
+                    </div>
+                </div>
+
+                <!-- Cake 7 -->
+                <div
+                    class="relative group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <img src="Images/IMG-20251027-WA0010.jpg" alt="Smiles"
+                        class="w-full h-48 md:h-64 object-cover group-hover:scale-105 transition duration-300">
+                    <div
+                        class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                        <h3 class="text-white font-playfair text-lg md:text-xl px-2">Smiles and Cakes</h3>
+                    </div>
+                </div>
+
+                <!-- Cake 8 -->
+                <div
+                    class="relative group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <img src="Images/Cup.jpg" alt="Cupcakes"
+                        class="w-full h-48 md:h-64 object-cover group-hover:scale-105 transition duration-300">
+                    <div
+                        class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                        <h3 class="text-white font-playfair text-lg md:text-xl px-2">Cupcakes</h3>
+                    </div>
+                </div>
+
+                <!-- Cake 9 -->
+                <div
+                    class="relative group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <img src="Images/Spidey.jpg" alt="Superhero"
+                        class="w-full h-48 md:h-64 object-cover group-hover:scale-105 transition duration-300">
+                    <div
+                        class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                        <h3 class="text-white font-playfair text-lg md:text-xl px-2">Superhero Cake</h3>
+                    </div>
+                </div>
+
+                <!-- Cake 10 -->
+                <div
+                    class="relative group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <img src="Images/IMG-20251027-WA0005.jpg" alt="Custom Cake"
+                        class="w-full h-48 md:h-64 object-cover group-hover:scale-105 transition duration-300">
+                    <div
+                        class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                        <h3 class="text-white font-playfair text-lg md:text-xl px-2">Custom Creation</h3>
+                    </div>
+                </div>
+
+                <!-- Cake 11 -->
+                <div
+                    class="relative group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <img src="Images/Cookies.jpg" alt="Cookies Tower"
+                        class="w-full h-48 md:h-64 object-cover group-hover:scale-105 transition duration-300">
+                    <div
+                        class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                        <h3 class="text-white font-playfair text-lg md:text-xl px-2">Signature Cookies Tower</h3>
+                    </div>
+                </div>
+
+                <!-- Cake 12 -->
+                <div
+                    class="relative group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                    <img src="Images/c1.jpg" alt="Instagram Promo"
+                        class="w-full h-48 md:h-64 object-cover group-hover:scale-105 transition duration-300">
+                    <div
+                        class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                        <h3 class="text-white font-playfair text-lg md:text-xl px-2">Check us out on Instagram</h3>
+                    </div>
+                </div>
+                <div
+                class="relative group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                <img src="Images/c2.jpg" alt="Instagram Promo"
+                    class="w-full h-48 md:h-64 object-cover group-hover:scale-105 transition duration-300">
+                <div
+                    class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                    <h3 class="text-white font-playfair text-lg md:text-xl px-2">Check us out on Instagram</h3>
+                </div>
+            </div>
+            <div
+            class="relative group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition duration-300">
+            <img src="Images/c3.jpg" alt="Instagram Promo"
+                class="w-full h-48 md:h-64 object-cover group-hover:scale-105 transition duration-300">
+            <div
+                class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                <h3 class="text-white font-playfair text-lg md:text-xl px-2">Check us out on Instagram</h3>
+            </div>
+        </div>
+        <div
+        class="relative group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition duration-300">
+        <img src="Images/c4.jpg" alt="Instagram Promo"
+            class="w-full h-48 md:h-64 object-cover group-hover:scale-105 transition duration-300">
+        <div
+            class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+            <h3 class="text-white font-playfair text-lg md:text-xl px-2">Check us out on Instagram</h3>
+        </div>
+    </div>
+    <div
+    class="relative group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition duration-300">
+    <img src="Images/image.jpg" alt="Instagram Promo"
+        class="w-full h-48 md:h-64 object-cover group-hover:scale-105 transition duration-300">
+    <div
+        class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+        <h3 class="text-white font-playfair text-lg md:text-xl px-2">Check us out on Instagram</h3>
+    </div>
+</div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 md:py-20 bg-white">
+        <div class="container mx-auto px-4 sm:px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl sm:text-4xl font-playfair font-bold text-amber-900 mb-3">Contact Us</h2>
+                <p class="font-montserrat text-gray-700 max-w-xl mx-auto text-sm sm:text-base">
+                    Ready to create edible art for your special occasion? Get in touch with us!
+                </p>
+                <div class="w-24 h-1 bg-amber-600 mx-auto mt-4"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10">
+                <div>
+                    <div class="mb-6">
+                        <h3 class="text-lg sm:text-xl font-playfair font-bold text-amber-900 mb-3">Visit Us</h3>
+                        <p class="font-montserrat text-gray-700 flex items-start text-sm sm:text-base">
+                            <i data-feather="map-pin" class="text-amber-600 mr-3 mt-1"></i>
+                            <span>27, Ziguinchor Road off IBB Way, Wuse Zone 4, Abuja Nigeria</span>
+                        </p>
+                    </div>
+
+                    <div class="mb-6">
+                        <h3 class="text-lg sm:text-xl font-playfair font-bold text-amber-900 mb-3">Call Us</h3>
+                        <p class="font-montserrat text-gray-700 flex items-center text-sm sm:text-base">
+                            <i data-feather="phone" class="text-amber-600 mr-3"></i>
+                            <span>+234-8030846099</span>
+                        </p>
+                    </div>
+
+                    <div class="mb-6">
+                        <h3 class="text-lg sm:text-xl font-playfair font-bold text-amber-900 mb-3">Follow Us</h3>
+                        <div class="flex space-x-4">
+                            <a href="https://instagram.com/thecookieboxng" target="_blank" rel="noopener noreferrer"
+                                class="text-amber-600 hover:text-amber-700 flex items-center space-x-2 text-sm sm:text-base">
+                                <i data-feather="instagram"></i>
+                                <span>@thecookieboxng</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact column — Brand logo -->
+                <div class="flex items-center justify-center">
+                    <div class="p-4 bg-transparent text-center">
+                        <img src="Images/image.jpg" alt="The Cookie Box Logo"
+                            class="mx-auto h-32 w-32 sm:h-40 sm:w-40 md:h-56 md:w-56 mb-4 rounded-full object-cover opacity-95">
+                        <h4 class="font-playfair font-bold text-amber-900 text-lg sm:text-2xl md:text-3xl">The Cookie
+                            Box</h4>
+                        <p class="font-montserrat text-gray-700 text-sm sm:text-base">Luxury artisanal pastries</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Section -->
+    <section class="py-12 md:py-16 bg-transparent">
+        <div class="container mx-auto px-4 sm:px-6 text-center">
+            <blockquote class="text-xl sm:text-2xl md:text-3xl font-playfair italic text-amber-900 max-w-4xl mx-auto">
+                "Baking turns simple ingredients into shared joy — love is always the secret ingredient."
+                <footer class="mt-4 text-base sm:text-lg font-montserrat not-italic">— The Cookie Box</footer>
+            </blockquote>
+        </div>
+    </section>
+
+    <custom-footer></custom-footer>
+
+    <!-- Copyright -->
+    <footer class="text-center py-4 bg-amber-50 text-gray-600">
+        <div class="container mx-auto px-4 sm:px-6">
+            <p class="text-sm sm:text-base">&copy; 2025 The Cookie Box. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+
+</html>
